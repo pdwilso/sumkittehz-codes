@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*
+  File:	gl-item-foot.css
+  Desc:	Style rules for item-foot template mode semantics and conent
+  Date:	2023-05-16
+  Auth:	sumkittehz.codes
+*/
+#item-foot {
+    display:flex;
+}

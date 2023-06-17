@@ -1,0 +1,56 @@
+/*
+  File:	gl-item-head.css
+  Desc: This file contains CSS rules that apply to the HTML element
+        with ID value '#item-head'
+  Auth:	sumkittehz.codes
+  Date:	2023-05-11
+
+*** CHANGELOG ***
+2023-05-16 sumkitteh
++ re-arrange order of rule bloks
++ consolidate all CSS for #item-head and contained items here
++ add flexbox and flex item properties for responsiveness
++ make all sizes (including fonts) use virtual viewport units
+*/
+.item-head {
+    font-size:125%;
+    font-weight:bold;
+    
+    grid-area: header;
+
+    display:flex;
+    flex-wrap: wrap;
+    
+    padding:0;
+    border-bottom:2px solid blue;
+}
+.item-head .daydisplay {
+}
+.item-head .timedisplay {
+    display:inline-block;
+    float:right;
+}
+
+
+/* ------------------------------------------- */
+#localtime, 
+#clock {
+/*    clear:right; */
+    border:3px solid purple;
+}
+#UTC {
+    float:right;
+    clear:right;
+    border: 3px solid green;
+}
+#cat-paw {
+    width:28px;
+    height:28px;
+    
+    float:left;
+
+    margin:5pt;
+    padding:5pt;
+
+    border:1px solid #212121;
+}

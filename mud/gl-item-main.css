@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*
+  File: gl-item-main.css
+  Desc:	Style rules for the item-main grid-item of the gl template.
+  Date:	2023-05-16
+  Auth:	sumkittehz.codes
+*/
+
+/*
+  These ID selectors select the SVG diagram objecs in the HTML
+*/
+#dia-gram {
+    margin:5pt;
+    padding:5pt;
+    border:1px solid #212121;
+}
+#dia-g2 {
+    margin:5pt;
+    padding:5pt;
+    border:1px solid #212121;    
+}
+
