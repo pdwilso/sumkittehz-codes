@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 2vh;
+    font-family:monospace;
+    background-image: url(./Images/20210527_022114.jpg);
+    background-size:cover;
+}
+.page {
+    margin:0;
+    padding:0;
+    background-color: rgba(0,0,192,0.25);
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw 1vh;
+    margin:0;
+    padding:0;
+
+    opacty:0;
+    
+    margin-top:1rem;
+    margin-bottom:1rem;
+
+    border:1px solid cyan; 
+    text-align:center;
+    content-align:center;
+    content-align:middle;
+
+}
+.flex > * {
+    flex: 1 1 25vw;
+}
+.flex div {
+    text-align:center;
+}
+object {
+    padding:1em;
+    margin:0;
+    border:1px solid cyan;
+    background-color:rgba(192,192,192,0.5);
+}
+/*
+object:hover,
+object:focus
+{
+    border:1px solid red;
+    background-color:rgb(192,192,192,0.5);
+}
+*/
+div#bang div {
+    padding:1em;
+    margin:0;
+    border:1px solid lime;
+    background-color: rgba( 192, 192, 64, 0.2 );  
+}
+
+.clr-oct { background-color:rgba(0,200,200,0.50);    }
+.clr-paw { background-color:rgba(128,192,128, 0.50); }
+.clr-tho { background-color:rgba(0,128,0,0.50);      }
+.clr-whe { background-color:rgba(128,0,128,0.40);    }
+.clr-ana { background-color:rgba(192,0,0,0.50);      }
+.clr-clo { background-color:rgba(128,0,128,0.40);    }
+.clr-rad { background-color:rgba(192,0,0,0.50);      }
+.clremp  { background-color:rgba(0,200,200,0.50);    }
+.clr-pen { background-color:rgba(0,128,0,0.50);      }
+.clr-ex3 { }
+.clr-dig { }
+.clr-dir { }
+
+#bar   { text-align:center; }
